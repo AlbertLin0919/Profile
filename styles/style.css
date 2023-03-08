@@ -582,6 +582,7 @@ img {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  color: var(--title-color);
 }
 .contact__container .contact__form .contact__button:hover i {
   transform: translate(0.2rem, -0.2rem);
