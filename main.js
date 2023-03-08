@@ -142,12 +142,12 @@ const sr = ScrollReveal({
   origin: "top",
   distance: "60px",
   duration: 2500,
-  delay: 400,
+  delay: 0,
   //   reset: true, //animation repeat
 });
 
 sr.reveal(`.home__data, .projects__container, .footer__container`);
-sr.reveal(`.home__info div`, { delay: 600, origin: "bottom", interval: 100 });
+sr.reveal(`.home__info div`, { delay: 200, origin: "bottom", interval: 100 });
 sr.reveal(`.skills__container`, { origin: "bottom" });
 sr.reveal(`.contact__content:nth-child(1)`, {
   origin: "left",
