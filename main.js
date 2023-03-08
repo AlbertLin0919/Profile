@@ -75,6 +75,7 @@ const sendEmail = (e) => {
           contactMessage.classList.add("color-green");
           contactMessage.classList.remove("color-red");
           contactMessage.innerHTML = "已寄出!";
+          alert("已經寄出囉!!請等待回覆");
           setTimeout(() => {
             contactMessage.innerHTML = "";
           }, 5000);
