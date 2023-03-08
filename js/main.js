@@ -153,6 +153,6 @@ sr.reveal(`.contact__content:nth-child(1)`, {
   distance: "80px",
 });
 sr.reveal(`.contact__content:nth-child(2)`, {
-  origin: "right",
+  origin: window.innerWidth < 768 ? "left" : "right",
   distance: "80px",
 });
