@@ -350,6 +350,9 @@ img {
         &.git span {
           width: 64%;
         }
+        &.react span {
+          width: 40%;
+        }
         & span::before {
           content: "";
           position: absolute;
@@ -388,6 +391,9 @@ img {
         }
         &.git span::after {
           content: "64%";
+        }
+        &.react span::after {
+          content: "40%";
         }
       }
     }

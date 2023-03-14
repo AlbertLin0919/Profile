@@ -344,6 +344,9 @@ img {
 .skills__container .skills__container-wrap .skills__bar-progress-line.git span {
   width: 64%;
 }
+.skills__container .skills__container-wrap .skills__bar-progress-line.react span {
+  width: 40%;
+}
 .skills__container .skills__container-wrap .skills__bar-progress-line span::before {
   content: "";
   position: absolute;
@@ -382,6 +385,9 @@ img {
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.git span::after {
   content: "64%";
+}
+.skills__container .skills__container-wrap .skills__bar-progress-line.react span::after {
+  content: "40%";
 }
 
 /* Animation skills */
