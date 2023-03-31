@@ -345,7 +345,7 @@ img {
   width: 64%;
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.react span {
-  width: 40%;
+  width: 60%;
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line span::before {
   content: "";
@@ -387,7 +387,7 @@ img {
   content: "64%";
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.react span::after {
-  content: "40%";
+  content: "60%";
 }
 
 /* Animation skills */

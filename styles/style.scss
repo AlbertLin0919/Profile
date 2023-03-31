@@ -351,7 +351,7 @@ img {
           width: 64%;
         }
         &.react span {
-          width: 40%;
+          width: 60%;
         }
         & span::before {
           content: "";
@@ -393,7 +393,7 @@ img {
           content: "64%";
         }
         &.react span::after {
-          content: "40%";
+          content: "60%";
         }
       }
     }
