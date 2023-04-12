@@ -333,19 +333,19 @@ img {
   animation: skillLine 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.html span {
-  width: 70%;
+  width: 75%;
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.css span {
-  width: 65%;
+  width: 73%;
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.javascript span {
-  width: 62%;
+  width: 74%;
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.git span {
-  width: 64%;
+  width: 72%;
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.react span {
-  width: 60%;
+  width: 74%;
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line span::before {
   content: "";
@@ -375,19 +375,19 @@ img {
   animation: showText 0.5s 1.5s linear forwards;
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.html span::after {
-  content: "70%";
+  content: "75%";
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.css span::after {
-  content: "65%";
+  content: "73%";
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.javascript span::after {
-  content: "62%";
+  content: "74%";
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.git span::after {
-  content: "64%";
+  content: "72%";
 }
 .skills__container .skills__container-wrap .skills__bar-progress-line.react span::after {
-  content: "60%";
+  content: "74%";
 }
 
 /* Animation skills */

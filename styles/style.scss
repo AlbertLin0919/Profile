@@ -339,19 +339,19 @@ img {
           animation: skillLine 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
         }
         &.html span {
-          width: 70%;
+          width: 75%;
         }
         &.css span {
-          width: 65%;
+          width: 73%;
         }
         &.javascript span {
-          width: 62%;
+          width: 74%;
         }
         &.git span {
-          width: 64%;
+          width: 72%;
         }
         &.react span {
-          width: 60%;
+          width: 74%;
         }
         & span::before {
           content: "";
@@ -381,19 +381,19 @@ img {
           animation: showText 0.5s 1.5s linear forwards;
         }
         &.html span::after {
-          content: "70%";
+          content: "75%";
         }
         &.css span::after {
-          content: "65%";
+          content: "73%";
         }
         &.javascript span::after {
-          content: "62%";
+          content: "74%";
         }
         &.git span::after {
-          content: "64%";
+          content: "72%";
         }
         &.react span::after {
-          content: "60%";
+          content: "74%";
         }
       }
     }
